@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BebeFeliz"
+    }
+  },
+  "defaultProject": "BebeFeliz",
+  "cli": {
+    "analytics": "61301c7b-31ba-4995-acda-cda994344a64"
+  }
 }

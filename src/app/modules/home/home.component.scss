@@ -1,0 +1,17 @@
+.carousel {
+  background: #e3e3e3;
+
+  .carousel-item {
+
+    img {
+      max-height: 500px;
+      min-width: auto;
+      object-fit: scale-down;
+    }
+  }
+
+  a {
+    color: black;
+  }
+
+}

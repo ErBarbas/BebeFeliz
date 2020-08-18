@@ -1,3 +1,5 @@
+import { ToolbarComponent } from './../../shared/components/toolbar/toolbar.component';
+import { MaterialModule } from './../../util/modules/material.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -9,7 +11,8 @@ import { HomeComponent } from './home.component';
   declarations: [HomeComponent],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    MaterialModule
   ]
 })
 export class HomeModule { }

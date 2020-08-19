@@ -1,3 +1,5 @@
+<!-- CAROUSEL DE BOOTSTRAP -->
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -5,14 +7,17 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
+
+    <!-- data-interval data-interval assigns the time interval that must pass to change the image -->
+
     <div class="carousel-item active" data-interval="2000">
-      <img src="https://picsum.photos/id/237/1000/1000" class="d-block w-100" alt="...">
+      <img src="https://picsum.photos/id/237/1000/500" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-interval="2000">
-      <img src="https://picsum.photos/id/238/1000/1000" class="d-block w-100" alt="...">
+      <img src="https://picsum.photos/id/238/1000/500" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://picsum.photos/id/239/1000/1000" class="d-block w-100" alt="...">
+      <img src="https://picsum.photos/id/239/1000/500" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -24,3 +29,75 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<div class="jumbotron mt-5">
+  <h1 class="text-center">PRODUCTOS MAS VENDIDOS</h1>
+</div>
+
+<!-- ROWS OF BOOTSTRAP -->
+
+<div class="row">
+  <div class="col-lg-3 col-md-6 col-sm-6">
+
+    <!-- A CARD OF ANGULAR MATERIAL -->
+
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>Producto 1</mat-card-title>
+      </mat-card-header>
+      <img matCardImage src="https://picsum.photos/id/239/400/400">
+      <mat-card-content>
+        Text content
+      </mat-card-content>
+      <mat-card-actions align="start">
+        <button mat-button>VER MAS</button>
+
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>Producto 2</mat-card-title>
+      </mat-card-header>
+      <img matCardImage src="https://picsum.photos/id/239/400/400">
+      <mat-card-content>
+        Text content
+      </mat-card-content>
+      <mat-card-actions align="start">
+        <button mat-button>VER MAS</button>
+
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>Producto 3</mat-card-title>
+      </mat-card-header>
+      <img matCardImage src="https://picsum.photos/id/239/400/400">
+      <mat-card-content>
+        Text content
+      </mat-card-content>
+      <mat-card-actions align="start">
+        <button mat-button>VER MAS</button>
+
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>Producto 4</mat-card-title>
+      </mat-card-header>
+      <img matCardImage src="https://picsum.photos/id/239/400/400">
+      <mat-card-content>
+        Text content
+      </mat-card-content>
+      <mat-card-actions align="start">
+        <button mat-button>VER MAS</button>
+
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
+

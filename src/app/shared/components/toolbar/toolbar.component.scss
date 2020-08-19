@@ -1,5 +1,9 @@
+/* STYLES OF TOOLBAR */
 .nav-bar {
-  background-color: #593BFF;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #3075fc;
   color: #ffffff;
 
   .brand {
@@ -12,3 +16,4 @@
     }
   }
 }
+/* END STYLES OF TOOLBAR */

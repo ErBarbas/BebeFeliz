@@ -25,6 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
 }
 
 //Applies a spacing between the elements of a toolbar

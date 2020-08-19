@@ -38,6 +38,7 @@ body {
   background: #3075fc;
   margin: 1rem;
 }
+
 .avatar {
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -45,6 +46,7 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
 /* END STYLES TO CARDS */
 
 //Remove the margin to the last element in a row
@@ -58,10 +60,13 @@ body {
 .mat-btn-primary {
   background: #3075fc;
 
-  a{
+  a {
     text-decoration: none;
     color: #fff;
   }
-
 }
+.mat-btn-secondary {
+  background: #FFB048;
+}
+
 /* END STYLE BUTTONS */

@@ -14,7 +14,8 @@ button.active:focus {
   outline: none !important;
   outline-style: none !important;
 }
-.mat-form-field-label{
+
+.mat-form-field-label {
   color: white !important;
 }
 
@@ -28,7 +29,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  overflow-x: hidden;
 }
 
 //Applies a spacing between the elements of a toolbar
@@ -38,7 +38,6 @@ body {
 
 /* STYLES TO CARDS */
 .card {
-  background: #3075fc;
   margin: 1rem;
 }
 
@@ -68,8 +67,10 @@ body {
     color: #fff;
   }
 }
+
 .mat-btn-secondary {
-  background: #FFB048;
+  background: #fff;
+  color: black;
 }
 
 /* END STYLE BUTTONS */
@@ -79,10 +80,24 @@ body {
 .white {
   color: #f3fffc;
 }
+
+.black {
+  color: black;
+}
+
 /*END STYLE COLORS */
 
 /* STYLE BACKGROUNDS */
 .bg-primary {
   background: #3075fc;
 }
+
 /* END STYLE BACKGRUNDS */
+
+.jumbotron {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}

@@ -1,2 +1,53 @@
-<app-toolbar></app-toolbar>
-<router-outlet></router-outlet>
+<div class="example-container" [class.example-is-mobile]="sideNavQuery.matches">
+  <mat-toolbar class="nav-bar">
+    <button mat-icon-button (click)="snav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class="brand">{{title}}</span>
+    <span class="example-spacer"></span>
+    <div class="nav-items">
+      <!-- ITEMS HERE -->
+    </div>
+  </mat-toolbar>
+  <mat-sidenav-container class="example-sidenav-container">
+    <mat-sidenav #snav [mode]="sideNavQuery.matches ? 'over' : 'side'" [fixedInViewport]="sideNavQuery.matches"
+      fixedTopGap="56">
+      <mat-nav-list>
+        <a [routerLink] routerLinkActive="active">
+          <button mat-button>
+            <mat-icon>home</mat-icon>&nbsp;Home
+          </button>
+        </a>
+        <a [routerLink] routerLinkActive="active">
+          <button mat-button>
+            <mat-icon>local_fire_department</mat-icon>&nbsp;Best post
+          </button>
+        </a>
+        <mat-divider></mat-divider>
+        <a [routerLink] routerLinkActive="active">
+          <button mat-button>
+            <mat-icon>history</mat-icon>&nbsp;Record
+          </button>
+        </a>
+        <a [routerLink] routerLinkActive="active">
+          <button mat-button>
+            <mat-icon>library_books</mat-icon>&nbsp;My posts
+          </button>
+        </a>
+        <a [routerLink] routerLinkActive="active">
+          <button mat-button>
+            <mat-icon>save</mat-icon>&nbsp;Saved posts
+          </button>
+        </a>
+        <a [routerLink] routerLinkActive="active">
+          <button mat-button>
+            <mat-icon>thumb_up_alt</mat-icon>&nbsp;Post that i like
+          </button>
+        </a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

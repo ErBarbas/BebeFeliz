@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import { MediaMatcher } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-main-page',
@@ -7,9 +8,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
-  constructor() { }
+  title = "BebeFeliz";
+
+  sideNavQuery: MediaQueryList;
+
+  private _sideNavQueryListener: () => void;
+
+  constructor(
+    changeDetectorRef: ChangeDetectorRef,
+    media: MediaMatcher,
+  ) {
+    this.sideNavQuery = media.matchMedia('(max-width: 950px)');
+    this._sideNavQueryListener = () => changeDetectorRef.detectChanges();
+    this.sideNavQuery.addListener(this._sideNavQueryListener);
+   }
 
   ngOnInit(): void {
+  }
+
+  ngOnDestroy(): void {
+    this.sideNavQuery.removeListener(this._sideNavQueryListener);
   }
 
 }

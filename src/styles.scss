@@ -7,6 +7,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
+  font-display: swap;
+}
+
 //Eliminate the border that bootstrap generates when clicking on angular material buttons
 button:focus,
 button:active:focus,
@@ -60,8 +68,6 @@ body {
 
 /* STYLE BUTTONS */
 .mat-btn-primary {
-  background: #3075fc;
-
   a {
     text-decoration: none;
     color: #fff;
@@ -88,9 +94,6 @@ body {
 /*END STYLE COLORS */
 
 /* STYLE BACKGROUNDS */
-.bg-primary {
-  background: #3075fc;
-}
 
 /* END STYLE BACKGRUNDS */
 

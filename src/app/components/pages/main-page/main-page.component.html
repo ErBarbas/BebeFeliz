@@ -1,6 +1,6 @@
 <div class="example-container" [class.example-is-mobile]="sideNavQuery.matches">
-  <mat-toolbar class="nav-bar">
-    <button mat-icon-button (click)="snav.toggle()">
+  <mat-toolbar class="nav-bar" color="primary">
+    <button mat-icon-button aria-label="menu" (click)="snav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
     <span class="brand">{{title}}</span>

@@ -38,6 +38,13 @@ body {
   background: #3075fc;
   margin: 1rem;
 }
+.avatar {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 /* END STYLES TO CARDS */
 
 //Remove the margin to the last element in a row

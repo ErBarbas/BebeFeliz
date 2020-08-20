@@ -1,299 +1,304 @@
-<!-- CAROUSEL DE BOOTSTRAP -->
+<div class="page-container">
+  <!-- CAROUSEL DE BOOTSTRAP -->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
 
-    <!-- data-interval data-interval assigns the time interval that must pass to change the image -->
+      <!-- data-interval data-interval assigns the time interval that must pass to change the image -->
 
-    <div class="carousel-item active" data-interval="2000">
-      <img src="https://picsum.photos/id/237/1000/500" class="d-block w-100" alt="banner image">
+      <div class="carousel-item active" data-interval="2000">
+        <img src="https://picsum.photos/id/237/1000/500" class="d-block w-100" alt="banner image">
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img src="https://picsum.photos/id/238/1000/500" class="d-block w-100" alt="banner image">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/239/1000/500" class="d-block w-100" alt="banner image">
+      </div>
     </div>
-    <div class="carousel-item" data-interval="2000">
-      <img src="https://picsum.photos/id/238/1000/500" class="d-block w-100" alt="banner image">
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="jumbotron mt-5">
+    <h1 class="text-center">PRODUCTOS MAS VENDIDOS</h1>
+  </div>
+
+  <!-- ROWS OF BOOTSTRAP -->
+
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-6">
+
+      <!-- A CARD OF ANGULAR MATERIAL -->
+
+      <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title>Producto 1</mat-card-title>
+        </mat-card-header>
+        <img matCardImage src="https://picsum.photos/id/243/400/400" alt="primer producto">
+        <mat-card-content>
+          Text content
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button aria-label="Ver mas">VER MAS</button>
+        </mat-card-actions>
+      </mat-card>
     </div>
-    <div class="carousel-item">
-      <img src="https://picsum.photos/id/239/1000/500" class="d-block w-100" alt="banner image">
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title>Producto 2</mat-card-title>
+        </mat-card-header>
+        <img matCardImage src="https://picsum.photos/id/240/400/400" alt="segundo producto">
+        <mat-card-content>
+          Text content
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button aria-label="Ver mas">VER MAS</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title>Producto 3</mat-card-title>
+        </mat-card-header>
+        <img matCardImage src="https://picsum.photos/id/241/400/400" alt="tercer producto">
+        <mat-card-content>
+          Text content
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button aria-label="Ver mas">VER MAS</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title>Producto 4</mat-card-title>
+        </mat-card-header>
+        <img matCardImage src="https://picsum.photos/id/242/400/400" alt="cuarto producto">
+        <mat-card-content>
+          Text content
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button aria-label="Ver mas">VER MAS</button>
+        </mat-card-actions>
+      </mat-card>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<div class="jumbotron mt-5">
-  <h1 class="text-center">PRODUCTOS MAS VENDIDOS</h1>
-</div>
-
-<!-- ROWS OF BOOTSTRAP -->
-
-<div class="row">
-  <div class="col-lg-3 col-md-6 col-sm-6">
-
-    <!-- A CARD OF ANGULAR MATERIAL -->
-
-    <mat-card class="card">
+  <div class="jumbotron mt-5">
+    <h1 class="text-center">SERVICIOS</h1>
+  </div>
+  <div class="jumbotron jumbotron-fluid mt-5 mb-3 text-center">
+    <div class="container">
+      <div class="row align-items-center h-100">
+        <div class="col-lg-6">
+          <img class="img-fluid mb-3" src="https://picsum.photos/id/244/400/400" alt="servicio a domicilio">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-4">Visita nuestra tienda!</h1>
+          <p class="lead">Encuentra los mejores productos, al mejor precio en nuestro local!. Nadie tiene mejores
+            ofertas.
+          </p>
+          <hr class="my-4">
+          <p>Localizanos!</p>
+          <button mat-raised-button aria-label="Ver datos contacto" class="mat-btn-primary">
+            <a routerLink="/home" role="button">Ver datos de contacto</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid mb-3 text-center">
+    <div class="container">
+      <div class="row align-items-center h-100">
+        <div class="col-lg-6">
+          <img class="img-fluid mb-3" src="https://picsum.photos/id/236/400/400" alt="tienda online 24/7">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-4">Visita nuestra tienda!</h1>
+          <p class="lead">Encuentra los mejores productos, al mejor precio en nuestro local!. Nadie tiene mejores
+            ofertas.
+          </p>
+          <hr class="my-4">
+          <p>Localizanos!</p>
+          <button mat-raised-button aria-label="Ver datos contacto" class="mat-btn-primary">
+            <a routerLink="/home" role="button">Ver datos de contacto</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid mb-3 text-center">
+    <div class="container">
+      <div class="row align-items-center h-100">
+        <div class="col-lg-6">
+          <img class="img-fluid mb-3" src="https://picsum.photos/id/235/400/400" alt="entregas rapidas">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-4">Visita nuestra tienda!</h1>
+          <p class="lead">Encuentra los mejores productos, al mejor precio en nuestro local!. Nadie tiene mejores
+            ofertas.
+          </p>
+          <hr class="my-4">
+          <p>Localizanos!</p>
+          <button mat-raised-button aria-label="Ver datos contacto" class="mat-btn-primary">
+            <a routerLink="/home" role="button">Ver datos de contacto</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron mt-5">
+    <h1 class="text-center">CLIENTES SATISFECHOS</h1>
+  </div>
+  <div class="container mt-5">
+    <mat-card class="user-comment w-100 mx-auto">
       <mat-card-header>
-        <mat-card-title>Producto 1</mat-card-title>
+        <div mat-card-avatar>
+          <img class="avatar" src="https://picsum.photos/id/239/40/40" alt="foto del usuario">
+        </div>
+        <mat-card-title>Shiba Inu</mat-card-title>
+        <mat-card-subtitle>user</mat-card-subtitle>
       </mat-card-header>
-      <img matCardImage src="https://picsum.photos/id/243/400/400" alt="primer producto">
       <mat-card-content>
-        Text content
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nemo!
+        </p>
       </mat-card-content>
-      <mat-card-actions>
-        <button mat-button aria-label="Ver mas">VER MAS</button>
-      </mat-card-actions>
     </mat-card>
-  </div>
-  <div class="col-lg-3 col-md-6 col-sm-6">
-    <mat-card class="card">
+    <mat-divider></mat-divider>
+    <mat-card class="user-comment w-100 mx-auto">
       <mat-card-header>
-        <mat-card-title>Producto 2</mat-card-title>
+        <div mat-card-avatar>
+          <img class="avatar" src="https://picsum.photos/id/239/40/40" alt="foto del usuario">
+        </div>
+        <mat-card-title>Shiba Inu</mat-card-title>
+        <mat-card-subtitle>user</mat-card-subtitle>
       </mat-card-header>
-      <img matCardImage src="https://picsum.photos/id/240/400/400" alt="segundo producto">
       <mat-card-content>
-        Text content
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ipsam laborum similique esse eos eligendi
+          nihil reiciendis, fuga nulla labore maiores.
+        </p>
       </mat-card-content>
-      <mat-card-actions>
-        <button mat-button aria-label="Ver mas">VER MAS</button>
-      </mat-card-actions>
     </mat-card>
-  </div>
-  <div class="col-lg-3 col-md-6 col-sm-6">
-    <mat-card class="card">
+    <mat-divider></mat-divider>
+    <mat-card class="user-comment w-100 mx-auto">
       <mat-card-header>
-        <mat-card-title>Producto 3</mat-card-title>
+        <div mat-card-avatar>
+          <img class="avatar" src="https://picsum.photos/id/239/40/40" alt="foto del usuario">
+        </div>
+        <mat-card-title>Shiba Inu</mat-card-title>
+        <mat-card-subtitle>user</mat-card-subtitle>
       </mat-card-header>
-      <img matCardImage src="https://picsum.photos/id/241/400/400" alt="tercer producto">
       <mat-card-content>
-        Text content
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button aria-label="Ver mas">VER MAS</button>
-      </mat-card-actions>
-    </mat-card>
-  </div>
-  <div class="col-lg-3 col-md-6 col-sm-6">
-    <mat-card class="card">
-      <mat-card-header>
-        <mat-card-title>Producto 4</mat-card-title>
-      </mat-card-header>
-      <img matCardImage src="https://picsum.photos/id/242/400/400" alt="cuarto producto">
-      <mat-card-content>
-        Text content
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button aria-label="Ver mas">VER MAS</button>
-      </mat-card-actions>
-    </mat-card>
-  </div>
-</div>
-<div class="jumbotron mt-5">
-  <h1 class="text-center">SERVICIOS</h1>
-</div>
-<div class="jumbotron jumbotron-fluid mt-5 mb-3 text-center">
-  <div class="container">
-    <div class="row align-items-center h-100">
-      <div class="col-lg-6">
-        <img class="img-fluid mb-3" src="https://picsum.photos/id/244/400/400" alt="servicio a domicilio">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-4">Visita nuestra tienda!</h1>
-        <p class="lead">Encuentra los mejores productos, al mejor precio en nuestro local!. Nadie tiene mejores ofertas.
-        </p>
-        <hr class="my-4">
-        <p>Localizanos!</p>
-        <button mat-raised-button aria-label="Ver datos contacto" class="mat-btn-primary">
-          <a routerLink="/home" role="button">Ver datos de contacto</a>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="jumbotron jumbotron-fluid mb-3 text-center">
-  <div class="container">
-    <div class="row align-items-center h-100">
-      <div class="col-lg-6">
-        <img class="img-fluid mb-3" src="https://picsum.photos/id/236/400/400" alt="tienda online 24/7">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-4">Visita nuestra tienda!</h1>
-        <p class="lead">Encuentra los mejores productos, al mejor precio en nuestro local!. Nadie tiene mejores ofertas.
-        </p>
-        <hr class="my-4">
-        <p>Localizanos!</p>
-        <button mat-raised-button aria-label="Ver datos contacto" class="mat-btn-primary">
-          <a routerLink="/home" role="button">Ver datos de contacto</a>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="jumbotron jumbotron-fluid mb-3 text-center">
-  <div class="container">
-    <div class="row align-items-center h-100">
-      <div class="col-lg-6">
-        <img class="img-fluid mb-3" src="https://picsum.photos/id/235/400/400" alt="entregas rapidas">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-4">Visita nuestra tienda!</h1>
-        <p class="lead">Encuentra los mejores productos, al mejor precio en nuestro local!. Nadie tiene mejores ofertas.
-        </p>
-        <hr class="my-4">
-        <p>Localizanos!</p>
-        <button mat-raised-button aria-label="Ver datos contacto" class="mat-btn-primary">
-          <a routerLink="/home" role="button">Ver datos de contacto</a>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="jumbotron mt-5">
-  <h1 class="text-center">CLIENTES SATISFECHOS</h1>
-</div>
-<div class="container mt-5">
-  <mat-card class="user-comment w-100 mx-auto">
-    <mat-card-header>
-      <div mat-card-avatar>
-        <img class="avatar" src="https://picsum.photos/id/239/40/40" alt="foto del usuario">
-      </div>
-      <mat-card-title>Shiba Inu</mat-card-title>
-      <mat-card-subtitle>user</mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nemo!
-      </p>
-    </mat-card-content>
-  </mat-card>
-  <mat-divider></mat-divider>
-  <mat-card class="user-comment w-100 mx-auto">
-    <mat-card-header>
-      <div mat-card-avatar>
-        <img class="avatar" src="https://picsum.photos/id/239/40/40" alt="foto del usuario">
-      </div>
-      <mat-card-title>Shiba Inu</mat-card-title>
-      <mat-card-subtitle>user</mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ipsam laborum similique esse eos eligendi
-        nihil reiciendis, fuga nulla labore maiores.
-      </p>
-    </mat-card-content>
-  </mat-card>
-  <mat-divider></mat-divider>
-  <mat-card class="user-comment w-100 mx-auto">
-    <mat-card-header>
-      <div mat-card-avatar>
-        <img class="avatar" src="https://picsum.photos/id/239/40/40" alt="foto del usuario">
-      </div>
-      <mat-card-title>Shiba Inu</mat-card-title>
-      <mat-card-subtitle>user</mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-      <p>
-        Lorem, ipsum dolor.
-      </p>
-    </mat-card-content>
-  </mat-card>
-</div>
-<div class="jumbotron mt-5">
-  <h1 class="text-center">CONTACTO</h1>
-</div>
-<div class="row mb-4">
-  <div class="col-lg-4 col-md-6">
-    <mat-card class="card">
-      <h2>Informacion de contacto</h2>
-      <mat-divider></mat-divider>
-      <mat-card-content class="mt-4">
         <p>
-          <b>Direccion:</b> Cra 5 Este #94-69 Sur
-        </p>
-        <p>
-          <b>Telefono:</b> 7641140
-        </p>
-        <p>
-          <b>Celular:</b> 305 4091063
-        </p>
-        <p>
-          <b>Correo:</b> pinillacarlos892@gmail.com
+          Lorem, ipsum dolor.
         </p>
       </mat-card-content>
     </mat-card>
   </div>
-  <div class="col-lg-8 col-md-6">
-    <mat-card class="card">
-      <h2>Formulario de contacto</h2>
-      <mat-divider></mat-divider>
-      <mat-card-content class="mt-4">
-        <p>
-          <mat-form-field class="w-100" appearance="legacy">
-            <mat-label>Correo</mat-label>
-            <input matInput autocomplete="off" placeholder="Ingresa tu correo">
-            <mat-icon matSuffix>alternate_email</mat-icon>
-            <mat-hint>correo</mat-hint>
-          </mat-form-field>
-        </p>
-        <p>
-          <mat-form-field class="w-100" appearance="legacy">
-            <mat-label>Mensaje</mat-label>
-            <textarea matInput placeholder="Ingresa un mensaje"></textarea>
-            <mat-icon matSuffix>email</mat-icon>
-            <mat-hint>mensaj</mat-hint>
-          </mat-form-field>
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button class="mat-btn-secondary w-100" aria-label="Enviar mensaje" mat-raised-button>Enviar mensaje</button>
-      </mat-card-actions>
-    </mat-card>
+  <div class="jumbotron mt-5">
+    <h1 class="text-center">CONTACTO</h1>
   </div>
-</div>
-<hr>
-<div class="footer pb-3 ">
-  <div class="row mt-4 ">
+  <div class="row mb-4">
     <div class="col-lg-4 col-md-6">
-      <mat-list class="white">
-        <mat-list-item> Pepper </mat-list-item>
-        <mat-list-item> Salt </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
-        <mat-list-item> Pepper </mat-list-item>
-        <mat-list-item> Salt </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
-      </mat-list>
+      <mat-card class="card">
+        <h2>Informacion de contacto</h2>
+        <mat-divider></mat-divider>
+        <mat-card-content class="mt-4">
+          <p>
+            <b>Direccion:</b> Cra 5 Este #94-69 Sur
+          </p>
+          <p>
+            <b>Telefono:</b> 7641140
+          </p>
+          <p>
+            <b>Celular:</b> 305 4091063
+          </p>
+          <p>
+            <b>Correo:</b> pinillacarlos892@gmail.com
+          </p>
+        </mat-card-content>
+      </mat-card>
     </div>
-    <div class="col-lg-4 col-md-6">
-      <mat-list class="white">
-        <mat-list-item> Pepper </mat-list-item>
-        <mat-list-item> Salt </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
-        <mat-list-item> Pepper </mat-list-item>
-        <mat-list-item> Salt </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
-      </mat-list>
-    </div>
-    <div class="col-lg-4 col-md-6">
-      <mat-list class="white">
-        <mat-list-item> Pepper </mat-list-item>
-        <mat-list-item> Salt </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
-        <mat-list-item> Pepper </mat-list-item>
-        <mat-list-item> Salt </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
-      </mat-list>
+    <div class="col-lg-8 col-md-6">
+      <mat-card class="card">
+        <h2>Formulario de contacto</h2>
+        <mat-divider></mat-divider>
+        <mat-card-content class="mt-4">
+          <p>
+            <mat-form-field class="w-100" appearance="legacy">
+              <mat-label>Correo</mat-label>
+              <input matInput autocomplete="off" placeholder="Ingresa tu correo">
+              <mat-icon matSuffix>alternate_email</mat-icon>
+              <mat-hint>correo</mat-hint>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field class="w-100" appearance="legacy">
+              <mat-label>Mensaje</mat-label>
+              <textarea matInput placeholder="Ingresa un mensaje"></textarea>
+              <mat-icon matSuffix>email</mat-icon>
+              <mat-hint>mensaj</mat-hint>
+            </mat-form-field>
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button class="mat-btn-secondary w-100" aria-label="Enviar mensaje" mat-raised-button>Enviar mensaje</button>
+        </mat-card-actions>
+      </mat-card>
     </div>
   </div>
-  <p class="white mt-5 text-center m-0">&copy; BebeFeliz</p>
+  <hr>
+  <div class="footer pb-3 ">
+    <div class="row mt-4 ">
+      <div class="col-lg-4 col-md-6">
+        <mat-list class="white">
+          <mat-list-item> Pepper </mat-list-item>
+          <mat-list-item> Salt </mat-list-item>
+          <mat-list-item> Paprika </mat-list-item>
+          <mat-list-item> Pepper </mat-list-item>
+          <mat-list-item> Salt </mat-list-item>
+          <mat-list-item> Paprika </mat-list-item>
+          <mat-list-item> Paprika </mat-list-item>
+        </mat-list>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <mat-list class="white">
+          <mat-list-item> Pepper </mat-list-item>
+          <mat-list-item> Salt </mat-list-item>
+          <mat-list-item> Paprika </mat-list-item>
+          <mat-list-item> Pepper </mat-list-item>
+          <mat-list-item> Salt </mat-list-item>
+          <mat-list-item> Paprika </mat-list-item>
+          <mat-list-item> Paprika </mat-list-item>
+        </mat-list>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <mat-list class="white">
+          <mat-list-item> Pepper </mat-list-item>
+          <mat-list-item> Salt </mat-list-item>
+          <mat-list-item> Paprika </mat-list-item>
+          <mat-list-item> Pepper </mat-list-item>
+          <mat-list-item> Salt </mat-list-item>
+          <mat-list-item> Paprika </mat-list-item>
+          <mat-list-item> Paprika </mat-list-item>
+        </mat-list>
+      </div>
+    </div>
+    <p class="white mt-5 text-center m-0">&copy; BebeFeliz</p>
+  </div>
 </div>

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/BebeFeliz",
+    "public": "dist/BebeFeliz/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

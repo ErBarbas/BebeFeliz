@@ -12,12 +12,15 @@
     },
     {
       "path": "./tsconfig.base.json"
-    }
+    },
     {
       "path": "./tsconfig.spec.json"
     },
     {
       "path": "./e2e/tsconfig.json"
+    },
+    {
+      "path": "./tsconfig.server.json"
     }
 ]
 }

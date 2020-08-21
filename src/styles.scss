@@ -44,6 +44,15 @@ body {
   margin: 0 auto;
 }
 
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 1000ms;
+}
+
 //Applies a spacing between the elements of a toolbar
 .example-spacer {
   flex: 1 1 auto;
